@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2FE55026813EA0008A2A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE54F26813EA0008A2A63 /* AppDelegate.swift */; };
+		3C2FE55226813EA0008A2A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE55126813EA0008A2A63 /* SceneDelegate.swift */; };
+		3C2FE55426813EA0008A2A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE55326813EA0008A2A63 /* ViewController.swift */; };
+		3C2FE55726813EA0008A2A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2FE55526813EA0008A2A63 /* Main.storyboard */; };
+		3C2FE55A26813EA0008A2A63 /* SentiTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE55826813EA0008A2A63 /* SentiTable.xcdatamodeld */; };
+		3C2FE55C26813EA0008A2A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2FE55B26813EA0008A2A63 /* Assets.xcassets */; };
+		3C2FE55F26813EA0008A2A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2FE55D26813EA0008A2A63 /* LaunchScreen.storyboard */; };
+		3C2FE56A26813EA0008A2A63 /* SentiTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE56926813EA0008A2A63 /* SentiTableTests.swift */; };
+		3C2FE57526813EA1008A2A63 /* SentiTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE57426813EA1008A2A63 /* SentiTableUITests.swift */; };
+		3C2FE58326814761008A2A63 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE58226814761008A2A63 /* Type1.swift */; };
+		3C2FE585268162A8008A2A63 /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FE584268162A8008A2A63 /* NewsDetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C2FE56626813EA0008A2A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2FE54426813EA0008A2A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2FE54B26813EA0008A2A63;
+			remoteInfo = SentiTable;
+		};
+		3C2FE57126813EA1008A2A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2FE54426813EA0008A2A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2FE54B26813EA0008A2A63;
+			remoteInfo = SentiTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2FE54C26813EA0008A2A63 /* SentiTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2FE54F26813EA0008A2A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C2FE55126813EA0008A2A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C2FE55326813EA0008A2A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C2FE55626813EA0008A2A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2FE55926813EA0008A2A63 /* SentiTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SentiTable.xcdatamodel; sourceTree = "<group>"; };
+		3C2FE55B26813EA0008A2A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2FE55E26813EA0008A2A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2FE56026813EA0008A2A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2FE56526813EA0008A2A63 /* SentiTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2FE56926813EA0008A2A63 /* SentiTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiTableTests.swift; sourceTree = "<group>"; };
+		3C2FE56B26813EA0008A2A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2FE57026813EA1008A2A63 /* SentiTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2FE57426813EA1008A2A63 /* SentiTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiTableUITests.swift; sourceTree = "<group>"; };
+		3C2FE57626813EA1008A2A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2FE58226814761008A2A63 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
+		3C2FE584268162A8008A2A63 /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2FE54926813EA0008A2A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56226813EA0008A2A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56D26813EA1008A2A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2FE54326813EA0008A2A63 = {
+			isa = PBXGroup;
+			children = (
+				3C2FE54E26813EA0008A2A63 /* SentiTable */,
+				3C2FE56826813EA0008A2A63 /* SentiTableTests */,
+				3C2FE57326813EA1008A2A63 /* SentiTableUITests */,
+				3C2FE54D26813EA0008A2A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2FE54D26813EA0008A2A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2FE54C26813EA0008A2A63 /* SentiTable.app */,
+				3C2FE56526813EA0008A2A63 /* SentiTableTests.xctest */,
+				3C2FE57026813EA1008A2A63 /* SentiTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2FE54E26813EA0008A2A63 /* SentiTable */ = {
+			isa = PBXGroup;
+			children = (
+				3C2FE54F26813EA0008A2A63 /* AppDelegate.swift */,
+				3C2FE55126813EA0008A2A63 /* SceneDelegate.swift */,
+				3C2FE55326813EA0008A2A63 /* ViewController.swift */,
+				3C2FE55526813EA0008A2A63 /* Main.storyboard */,
+				3C2FE55B26813EA0008A2A63 /* Assets.xcassets */,
+				3C2FE55D26813EA0008A2A63 /* LaunchScreen.storyboard */,
+				3C2FE56026813EA0008A2A63 /* Info.plist */,
+				3C2FE55826813EA0008A2A63 /* SentiTable.xcdatamodeld */,
+				3C2FE58226814761008A2A63 /* Type1.swift */,
+				3C2FE584268162A8008A2A63 /* NewsDetailController.swift */,
+			);
+			path = SentiTable;
+			sourceTree = "<group>";
+		};
+		3C2FE56826813EA0008A2A63 /* SentiTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2FE56926813EA0008A2A63 /* SentiTableTests.swift */,
+				3C2FE56B26813EA0008A2A63 /* Info.plist */,
+			);
+			path = SentiTableTests;
+			sourceTree = "<group>";
+		};
+		3C2FE57326813EA1008A2A63 /* SentiTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2FE57426813EA1008A2A63 /* SentiTableUITests.swift */,
+				3C2FE57626813EA1008A2A63 /* Info.plist */,
+			);
+			path = SentiTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2FE54B26813EA0008A2A63 /* SentiTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2FE57926813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTable" */;
+			buildPhases = (
+				3C2FE54826813EA0008A2A63 /* Sources */,
+				3C2FE54926813EA0008A2A63 /* Frameworks */,
+				3C2FE54A26813EA0008A2A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentiTable;
+			productName = SentiTable;
+			productReference = 3C2FE54C26813EA0008A2A63 /* SentiTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C2FE56426813EA0008A2A63 /* SentiTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2FE57C26813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTableTests" */;
+			buildPhases = (
+				3C2FE56126813EA0008A2A63 /* Sources */,
+				3C2FE56226813EA0008A2A63 /* Frameworks */,
+				3C2FE56326813EA0008A2A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2FE56726813EA0008A2A63 /* PBXTargetDependency */,
+			);
+			name = SentiTableTests;
+			productName = SentiTableTests;
+			productReference = 3C2FE56526813EA0008A2A63 /* SentiTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C2FE56F26813EA1008A2A63 /* SentiTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2FE57F26813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTableUITests" */;
+			buildPhases = (
+				3C2FE56C26813EA1008A2A63 /* Sources */,
+				3C2FE56D26813EA1008A2A63 /* Frameworks */,
+				3C2FE56E26813EA1008A2A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2FE57226813EA1008A2A63 /* PBXTargetDependency */,
+			);
+			name = SentiTableUITests;
+			productName = SentiTableUITests;
+			productReference = 3C2FE57026813EA1008A2A63 /* SentiTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2FE54426813EA0008A2A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3C2FE54B26813EA0008A2A63 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3C2FE56426813EA0008A2A63 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3C2FE54B26813EA0008A2A63;
+					};
+					3C2FE56F26813EA1008A2A63 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3C2FE54B26813EA0008A2A63;
+					};
+				};
+			};
+			buildConfigurationList = 3C2FE54726813EA0008A2A63 /* Build configuration list for PBXProject "SentiTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2FE54326813EA0008A2A63;
+			productRefGroup = 3C2FE54D26813EA0008A2A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2FE54B26813EA0008A2A63 /* SentiTable */,
+				3C2FE56426813EA0008A2A63 /* SentiTableTests */,
+				3C2FE56F26813EA1008A2A63 /* SentiTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2FE54A26813EA0008A2A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2FE55F26813EA0008A2A63 /* LaunchScreen.storyboard in Resources */,
+				3C2FE55C26813EA0008A2A63 /* Assets.xcassets in Resources */,
+				3C2FE55726813EA0008A2A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56326813EA0008A2A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56E26813EA1008A2A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2FE54826813EA0008A2A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2FE55426813EA0008A2A63 /* ViewController.swift in Sources */,
+				3C2FE55026813EA0008A2A63 /* AppDelegate.swift in Sources */,
+				3C2FE55A26813EA0008A2A63 /* SentiTable.xcdatamodeld in Sources */,
+				3C2FE585268162A8008A2A63 /* NewsDetailController.swift in Sources */,
+				3C2FE55226813EA0008A2A63 /* SceneDelegate.swift in Sources */,
+				3C2FE58326814761008A2A63 /* Type1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56126813EA0008A2A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2FE56A26813EA0008A2A63 /* SentiTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2FE56C26813EA1008A2A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2FE57526813EA1008A2A63 /* SentiTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C2FE56726813EA0008A2A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2FE54B26813EA0008A2A63 /* SentiTable */;
+			targetProxy = 3C2FE56626813EA0008A2A63 /* PBXContainerItemProxy */;
+		};
+		3C2FE57226813EA1008A2A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2FE54B26813EA0008A2A63 /* SentiTable */;
+			targetProxy = 3C2FE57126813EA1008A2A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C2FE55526813EA0008A2A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2FE55626813EA0008A2A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2FE55D26813EA0008A2A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2FE55E26813EA0008A2A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2FE57726813EA1008A2A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C2FE57826813EA1008A2A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2FE57A26813EA1008A2A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C2FE57B26813EA1008A2A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C2FE57D26813EA1008A2A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiTable.app/SentiTable";
+			};
+			name = Debug;
+		};
+		3C2FE57E26813EA1008A2A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiTable.app/SentiTable";
+			};
+			name = Release;
+		};
+		3C2FE58026813EA1008A2A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentiTable;
+			};
+			name = Debug;
+		};
+		3C2FE58126813EA1008A2A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XC9C6N3P4;
+				INFOPLIST_FILE = SentiTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sentilab.SentiTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentiTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2FE54726813EA0008A2A63 /* Build configuration list for PBXProject "SentiTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2FE57726813EA1008A2A63 /* Debug */,
+				3C2FE57826813EA1008A2A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2FE57926813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2FE57A26813EA1008A2A63 /* Debug */,
+				3C2FE57B26813EA1008A2A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2FE57C26813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2FE57D26813EA1008A2A63 /* Debug */,
+				3C2FE57E26813EA1008A2A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2FE57F26813EA1008A2A63 /* Build configuration list for PBXNativeTarget "SentiTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2FE58026813EA1008A2A63 /* Debug */,
+				3C2FE58126813EA1008A2A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C2FE55826813EA0008A2A63 /* SentiTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C2FE55926813EA0008A2A63 /* SentiTable.xcdatamodel */,
+			);
+			currentVersion = 3C2FE55926813EA0008A2A63 /* SentiTable.xcdatamodel */;
+			path = SentiTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C2FE54426813EA0008A2A63 /* Project object */;
+}
